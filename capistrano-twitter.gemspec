@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name        = "capistrano-twitter"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.authors     = ["Martin Jonsson"]
   s.email       = ["martin.jonsson@gmail.com"]
   s.homepage    = "http://github.com/martinj/capistrano-twitter"
