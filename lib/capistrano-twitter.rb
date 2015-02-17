@@ -9,7 +9,7 @@ def _cset(name, *args, &block)
   end
 end
 
-Capistrano::Configuratio@n.instance.load do
+Capistrano::Configuration.instance.load do
   _cset(:twitter_consumer_key) { abort "Please specify twitter consumer key, set :twitter_consumer_key".red }
   _cset(:twitter_consumer_secret) { abort "Please specify twitter consumer secret, set :twitter_consumer_secret".red }
   _cset(:twitter_access_token) { abort "Please specify twitter access token, set :twitter_access_token".red }
